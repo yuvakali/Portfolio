@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="jigar sable, portfolio, yuvaraj, Robotics & AI System Engineer, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to yuva's Portfolio. Robotics & AI System Engineer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | yuvaraj singh</title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+  <a href="#home" class="logo">
+    <img src="./assets/images/logo.jpg" alt="Logo" style="width: 50px; height: auto;" />
+  </a>
+  
+  
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Yuvaraj <span>Singh</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/yuvakali/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/yuvakali" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://x.com/Yuvaraj_Singh_" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram" href="https://t.me/Yuvaraj_singh_uv" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/yuvaraj_singh_uv/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/DSC_0747.JPG" alt="" style="width: 500px; height: auto;">
+    </div>
+    <div class="content">
+      <h3>I'm Yuvaraj Singh</h3>
+      <span class="tag">Robotics & AI Systems Engineer</span>
+      
+      <p>I am a Robotics & AI Systems Engineer at Spacetug Pvt Ltd, based in Chennai, India.
+         As an MCA graduate from Presidency College, I specialize in developing advanced robotics solutions and sustainable space technologies.
+         Passionate about enhancing autonomous systems for space debris capture and satellite end-of-life management, I am committed to advancing innovative robotics applications that contribute to a sustainable future in space.</p>
+  
+        
+        <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+            <div class="box">
+              <p><span> email : </span> yuvarajsinghoffice@gmail.com</p>
+              <p><span> place : </span> Chennai, India - 600005</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1FtgfWBbxDBtgi0zUtEm6HQgtfhTZEn8y/view" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+    <div class="container">
+      <div class="row" id="skillsContainer">
+        <!-- Skills will be added here dynamically -->
+      </div>
+    </div>
+    
+    <script>
+      const skills = [
+        { name: "Visual Studio Code", icon: "./assets/images/skills/vs.png" },
+        { name: "C", icon: "./assets/images/skills/c.png" },
+        { name: "C++", icon: "./assets/images/skills/c++.png" },
+        { name: "CMake", icon: "./assets/images/skills/CMake.png" },
+        { name: "CSS", icon: "./assets/images/skills/CSS3.png" },
+        { name: "Docker", icon: "./assets/images/skills/Docker.png" },
+        { name: "Embedded C", icon: "./assets/images/skills/Embedded C.png" },
+        { name: "Gazebo", icon: "./assets/images/skills/Gazebo.png" },
+        { name: "GIMP", icon: "./assets/images/skills/GIMP.png" },
+        { name: "Git", icon: "./assets/images/skills/Git.png" },
+        { name: "HTML5", icon: "./assets/images/skills/HTML5.png" },
+        { name: "JavaScript", icon: "./assets/images/skills/JavaScript.png" },
+        { name: "Keras", icon: "./assets/images/skills/Keras.png" },
+        { name: "Linux", icon: "./assets/images/skills/Linux.png" },
+        { name: "MATLAB", icon: "./assets/images/skills/MATLAB.png" },
+        { name: "MySQL", icon: "./assets/images/skills/MySQL.png" },
+        { name: "OpenCV", icon: "./assets/images/skills/OpenCV.png" },
+        { name: "Python", icon: "./assets/images/skills/Python.png" },
+        { name: "PyTorch", icon: "./assets/images/skills/PyTorch.png" },
+        { name: "Raspberry Pi", icon: "./assets/images/skills/RaspberryPi.png" },
+        { name: "Stack Overflow", icon: "./assets/images/skills/StackOverflow.png" },
+        { name: "Vim", icon: "./assets/images/skills/Vim.png" },
+        { name: "Rust", icon: "./assets/images/skills/rust.png" },
+        { name: "Ros2", icon: "./assets/images/skills/ros.png" },
+      ];
+    
+      const skillsContainer = document.getElementById("skillsContainer");
+    
+      skills.forEach(skill => {
+        const skillDiv = document.createElement("div");
+        skillDiv.classList.add("bar");
+    
+        const infoDiv = document.createElement("div");
+        infoDiv.classList.add("info");
+    
+        const iconImg = document.createElement("img");
+        iconImg.src = skill.icon;
+        iconImg.alt = `${skill.name} icon`;
+    
+        const skillName = document.createElement("span");
+        skillName.textContent = skill.name;
+    
+        infoDiv.appendChild(iconImg);
+        infoDiv.appendChild(skillName);
+        skillDiv.appendChild(infoDiv);
+        skillsContainer.appendChild(skillDiv);
+      });
+    </script>
+    
+    <style>
+      /* Container styling for skill bars */
+      #skillsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    
+      /* Individual skill bar styling */
+      .bar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+        width: 100px; /* Adjust width as needed */
+        margin: 10px;
+      }
+    
+      /* Info div styling */
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      /* Icon image styling */
+      .info img {
+        width: 40px;  /* Set desired icon width */
+        height: 40px; /* Set desired icon height */
+        object-fit: contain; /* Ensures the aspect ratio is maintained */
+        margin-bottom: 8px;
+      }
+    
+      /* Skill name styling */
+      .info span {
+        font-size: 14px; /* Adjust as needed */
+      }
+    </style>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Masters of Computer Applications</h3>
+        <p>Presidency College Chennai</p>
+        <h4>2022-2024 | Completed </h4>
+        </div>
+    </div>
+  <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/college.jpeg" alt="">
+      </div>
+      <div class="content">
+      <h3>Bachelor of Computer Science</h3>
+      <p>Nadar Mahajana Sangam S. Vellaichamy Nadar College Madurai</p>
+      <h4>2019-2022 | Completed</h4>
+      </div>
+  </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3> SSLC - HSC </h3>
+      <p>M.S.P. Solai Nadar Memorial Higher Secondary School | State Board</p>
+      <h4>2016-2019 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+    <!-- First Project -->
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/yolov8sam.jpg" alt="YOLOv8 and Sam Web Project Image" />
+      <div class="content">
+        <div class="tag">
+          <h3>YOLOv8 and Sam Web</h3>
+        </div>
+        <div class="desc">
+          <p>YOLOv8 is a real-time object detection model,web-based applications for precise detection and image segmentation tasks.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/yuvakali/YOLOv8_and_Sam_Web" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Project -->
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/yolo.png" alt="YOLOv8 Custom Segmentation Project Image" />
+      <div class="content">
+        <div class="tag">
+          <h3>YOLOv8 Custom Segmentation</h3>
+        </div>
+        <div class="desc">
+          <p> YOLOv8 is a state-of-the-art object detection and segmentation model.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/yuvakali/yolov8_custom_segmentation" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Project -->
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/svncet.jpg" alt="SVNCET Project Image" />
+      <div class="content">
+        <div class="tag">
+          <h3>SVNCET</h3>
+        </div>
+        <div class="desc">
+          <p>The "Online Admission and Exam Management System" project draws inspiration from the TANCET examination website.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/yuvakali/SVNCET" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div> <!-- Closing tag for .box-container -->
+
+  <!-- View All Button -->
+  <div class="viewall">
+    <a href="https://github.com/yuvakali" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+</section>
+
+
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Spacetug Pvt Ltd</h2>
+        </div>
+        <div class="desc">
+            <h3>Robotics & AI System Engineer</h3>
+            <p>April 2024 - present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>National Atmospheric Research Laboratory @ ISRO</h2>
+        </div>
+        <div class="desc">
+            <h3>Research Trainee | Project Internship</h3>
+            <p>Jan 2024 - Mar 2024</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Spacetug Pvt Ltd</h2>
+        </div>
+        <div class="desc">
+            <h3>AI and ML Trainee | Internship</h3>
+            <p>May 2023 - Dec 2023</p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="morebtn">
+    <a href="https://www.linkedin.com/in/yuvakali" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- Contact Section Starts -->
+<section class="contact" id="contact">
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+      <form id="contact-form" onsubmit="submitForm(event)">
+        <div class="form-group">
+          <div class="field">
+            <input type="text" name="name" placeholder="Name" required>
+            <i class='fas fa-user'></i>
+          </div>
+          <div class="field">
+            <input type="email" name="email" placeholder="Email" required>
+            <i class='fas fa-envelope'></i>
+          </div>
+          <div class="field">
+            <input type="tel" name="phone" placeholder="Phone">
+            <i class='fas fa-phone-alt'></i>
+          </div>
+          <div class="message">
+            <textarea placeholder="Message" name="message" required></textarea>
+            <i class="fas fa-comment-dots"></i>
+          </div>
+        </div>
+        <div class="button-area">
+          <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxoqsMwbFHsTYe5j06eizlWtBPtiQQA5WdCC9HeWu2n4U-G3tMPsyTDz5tvsuOzsocq/exec';
+  const form = document.getElementById('contact-form');
+
+  async function submitForm(event) {
+      event.preventDefault();  // Prevents the default form submission behavior
+      try {
+          let response = await fetch(scriptURL, {
+              method: 'POST',
+              body: new FormData(form)
+          });
+          if (response.ok) {
+              alert('Form submitted successfully!');
+              form.reset();  // Clears the form after successful submission
+          } else {
+              alert('Error submitting form. Please try again.');
+          }
+      } catch (error) {
+          alert('Error submitting form. Please check your network connection and try again.');
+      }
+  }
+</script>
+
+
+
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>yuva's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 98944 85971</p>
+          <p> <i class="fas fa-envelope"></i>yuvarajsinghoffice@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Chennai, India-600005</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/yuvakali" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/yuvakali" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:yuvarajsinghoffice@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://twitter.com/Yuvaraj_Singh_" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="https://t.me/yuvaraj_singh_uv" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/yuvakali"> yuvaraj singh</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
